@@ -1,4 +1,20 @@
+{% load static %}
 
-<h1>Hola Mundo</h1>
-
-<p>Mañana es carnaval</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Mundo Django</title>
+    <!-- Corregido el typo en 'static' -->
+    <link rel="stylesheet" href="{% static 'css/hola_mundo.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Hola Mundo Django! 🚀</h1>
+        <p>Mi primera página web con Django, HTML y CSS</p>
+        <!-- Podrías añadir una imagen estática como ejemplo -->
+        
+    </div>
+</body>
+</html>
